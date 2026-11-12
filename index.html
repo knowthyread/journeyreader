@@ -8,7 +8,8 @@
 <meta property="og:title" content="Journey Reader – Read and listen to any book, offline">
 <meta property="og:description" content="AI voices, stackable soundscapes, and an ad-free reading browser. Works fully offline.">
 <meta property="og:image" content="assets/library.webp">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📖</text></svg>">
+<link rel="icon" type="image/png" href="assets/icon_foreground.png">
+<link rel="apple-touch-icon" href="assets/icon_foreground.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
@@ -82,6 +83,8 @@ nav a.link:hover{color:var(--text)}
 .cta .actions{justify-content:center}
 .cta .btn{background:var(--ink)}
 .cta .btn:hover{background:#24507a}
+.logo{font:600 1.35rem var(--serif);text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+.logo img{width:48px;height:48px;border-radius:8px;object-fit:contain}
 
 /* footer */
 footer{padding:44px 0;color:var(--muted);font-size:.92rem}
@@ -104,13 +107,16 @@ footer a:hover{color:var(--text);text-decoration:underline}
 
 <div class="wrap">
   <nav aria-label="Main">
-    <a class="logo" href="#">Journey Reader</a>
+    <a class="logo" href="#">
+      <img src="assets/icon_foreground.png" alt="Journey Reader icon" width="48" height="48">
+      <span>Journey Reader</span>
+    </a>
     <a class="link" href="#get">Get the app</a>
   </nav>
 
   <header class="hero">
     <div>
-      <h1>Every book, article, and story. Read it or hear it, anywhere.</h1>
+      <h1>“Every page turns the unknown into the known.”</h1>
       <p class="lead">Import EPUB and PDF files, save web articles, and listen with natural AI voices. No account, no connection, no ads.</p>
       <div class="actions">
         <a class="btn" href="#get">Download for Android</a>
